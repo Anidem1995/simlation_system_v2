@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773ef269-fb45-40d9-a834-014382e6ce95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoritmos_geneticos/CustomGeneticAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoritmos_geneticos/TravellingSalesman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoritmos_geneticos/model/Chromosome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoritmos_geneticos/model/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algoritmos_geneticos/model/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/Aditivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/FactorConstante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/Mixto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/Multiplicativo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/VonNeumann.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/modelo/Semilla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/modelo/corridas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numeros_pseudoaleatorios/productoCentral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pruebas_bondad_ajuste/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pruebas_bondad_ajuste/tablaDisNormal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Integrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Integrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Intervalo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables_aleatorias/transformada_inversa/Empirica.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,116 +20,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numeros_pseudoaleatorios/FactorConstante.java">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/AutoCorrelacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numeros_pseudoaleatorios/Multiplicativo.java">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/chi2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numeros_pseudoaleatorios/productoCentral.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numeros_pseudoaleatorios/VonNeumann.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numeros_pseudoaleatorios/Mixto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numeros_pseudoaleatorios/Aditivo.java">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/ChiCuadrada.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Corridas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Huecos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/KolmogorovSmirnov.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/numeros_pseudoaleatorios/modelo/corridas.java">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Poker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algoritmos_geneticos/TravellingSalesman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algoritmos_geneticos/CustomGeneticAlgorithm.java">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_bondad_ajuste/tablaDisNormal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
               <folding>
-                <element signature="e#314#326#0" expanded="true" />
-                <element signature="e#2844#2856#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algoritmos_geneticos/model/Chromosome.java">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_bondad_ajuste/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Promedio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -227,6 +191,12 @@
               <item name="simulation_system_v3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simulation_system_v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simulation_system_v3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pruebas_bondad_ajuste" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -241,13 +211,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pruebas_independencia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javatuples-1.2.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algoritmos_geneticos" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Jose\Documents\simulation_system_v3\src\pruebas_bondad_ajuste" />
+      <recent name="D:\Users\Jose\Documents\simulation_system_v3\src\pruebas_independencia" />
       <recent name="D:\Users\Jose\Documents\simulation_system_v3\src\algoritmos_geneticos" />
       <recent name="D:\Users\Jose\Documents\simulation_system_v3\src\numeros_pseudoaleatorios" />
       <recent name="D:\Users\Jose\Documents\simulation_system_v3" />
@@ -301,15 +276,16 @@
       <workItem from="1557803062789" duration="581000" />
       <workItem from="1557976395744" duration="237000" />
       <workItem from="1558458608494" duration="56000" />
-      <workItem from="1559014317353" duration="2450000" />
+      <workItem from="1559014317353" duration="3006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54262000" />
+    <option name="totallyTimeSpent" value="54818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30738255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -325,7 +301,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32960895" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32960895" />
@@ -619,6 +595,79 @@
           <folding>
             <element signature="e#314#326#0" expanded="true" />
             <element signature="e#2844#2856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/AutoCorrelacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/chi2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/ChiCuadrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Corridas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Huecos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/KolmogorovSmirnov.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Promedio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_independencia/Poker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_bondad_ajuste/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pruebas_bondad_ajuste/tablaDisNormal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
