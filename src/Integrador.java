@@ -38,7 +38,6 @@ public class Integrador {
                         new Weibull().iterar(numeros);
                         break;
                     case 4:
-                        new Empirica().iterar(numeros);
                         break;
                     case 5:
                         new Normal().iterar(numeros);
