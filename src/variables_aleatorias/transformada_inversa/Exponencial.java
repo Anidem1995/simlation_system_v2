@@ -1,7 +1,5 @@
 package variables_aleatorias.transformada_inversa;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.List;
 
 public class Exponencial {
@@ -17,7 +15,6 @@ public class Exponencial {
         }
     }
 
-    @NotNull
     private Double calcularLambda(List<Double> numeros) {
         return numeros.stream().mapToDouble(value -> value).sum() / numeros.size();
     }

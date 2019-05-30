@@ -22,7 +22,6 @@ public class ManejoArchivos {
             abrirArchivo();
             archivo.seek(archivo.length());
             archivo.writeDouble(numero);
-            System.out.println(archivo.length());
             archivo.close();
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,18 +1,21 @@
 
 package pruebas_independencia;
+
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class KolmogorovSmirnov {
     double mas,menos,sumatoriaMas=0,sumatoriaMenos=0,D;
             
-    public void calcular(ArrayList<Double>nums)
+    public boolean calcular(List<Double> nums)
     {
+        boolean accepted = false;
         int n=0, i=1;
         double val;
-        ArrayList<Double>nums2 = new ArrayList<>();
-        ArrayList<Double>Dmas = new ArrayList<>();
-        ArrayList<Double>Dmenos = new ArrayList<>();
+        List<Double>nums2 = new ArrayList<>();
+        List<Double>Dmas = new ArrayList<>();
+        List<Double>Dmenos = new ArrayList<>();
 
         //añade los valores decimales a otro arraylist
         for (int x=0; x<nums.size(); x++) 
@@ -55,7 +58,8 @@ public class KolmogorovSmirnov {
                 System.out.println("Valor de D-: "+sumatoriaMenos+"\n");
                 System.out.println("Valor de D: "+D+"\n");
                 System.out.println("Total de numeros de la muestra: "+ n+"\n");
-                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados provienen de una distribución unifirme \n");       
+                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados provienen de una distribución uniforme \n");
+                accepted = true;
             }
             else
             {
@@ -64,7 +68,8 @@ public class KolmogorovSmirnov {
                 System.out.println("Valor de D-: "+sumatoriaMenos+"\n");
                 System.out.println("Valor de D: "+D+"\n");
                 System.out.println("Total de numeros de la muestra: "+ n+"\n");
-                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados NO provienen de una distribución unifirme \n");
+                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados NO provienen de una distribución uniforme \n");
+                accepted = false;
             }
             
         }
@@ -77,7 +82,8 @@ public class KolmogorovSmirnov {
                 System.out.println("Valor de D-: "+sumatoriaMenos+"\n");
                 System.out.println("Valor de D: "+D+"\n");
                 System.out.println("Total de numeros de la muestra: "+ n+"\n");
-                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados provienen de una distribución unifirme \n");       
+                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados provienen de una distribución uniforme \n");
+                accepted = true;
             }
             else
             {
@@ -86,9 +92,11 @@ public class KolmogorovSmirnov {
                 System.out.println("Valor de D-: "+sumatoriaMenos+"\n");
                 System.out.println("Valor de D: "+D+"\n");
                 System.out.println("Total de numeros de la muestra: "+ n+"\n");
-                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados NO provienen de una distribución unifirme \n");
+                System.out.println("De acuerdo a la prueba de Kolmogorov Smirnov los numeros generados NO provienen de una distribución uniforme \n");
+                accepted = false;
             }
             
         }
+        return accepted;
     }
 }

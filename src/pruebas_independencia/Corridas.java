@@ -1,13 +1,14 @@
 package pruebas_independencia;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Corridas {
     
     int totalN=1,R=0;
     double numsNeg=0,numsPos=0,mediaR,desvEstR,Z,nivelSignificancia=0.005f,valTablaZ=2.58f;
     
-    public void calcularCorridas(ArrayList<Double>nums) {
+    public void calcularCorridas(List<Double> nums) {
         double suma = 0,media,num;
         boolean contadorR,banderaR=true;
         

@@ -5,6 +5,7 @@ import java.util.List;
 public class Chromosome {
     private List<Integer> genotype;
     private Double aptitude;
+    private Double fitness_radio;
 
     public Chromosome() { }
 
@@ -26,6 +27,12 @@ public class Chromosome {
 
     public void setAptitude(Double aptitude) {
         this.aptitude = aptitude;
+    }
+
+    public Double getFitness_radio() { return fitness_radio; }
+
+    public void setFitness_radio(Double acumulated_fitness) {
+        this.fitness_radio = this.aptitude / acumulated_fitness;
     }
 
     @Override

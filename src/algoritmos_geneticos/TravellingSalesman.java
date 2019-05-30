@@ -2,7 +2,9 @@ package algoritmos_geneticos;
 
 import algoritmos_geneticos.model.Node;
 import algoritmos_geneticos.model.Tuple;
+import archivos.ManejoArchivos;
 
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
@@ -13,21 +15,26 @@ public class TravellingSalesman {
     private List<Node> cities;
     private List<Tuple> genotype = new ArrayList<>();
     private Scanner scanner = new Scanner(System.in);
+    private ManejoArchivos manejoArchivos = new ManejoArchivos();
     int number_of_cities;
     int[][] matrix;
 
     public TravellingSalesman() {
         cities = new ArrayList<>();
+        setMatrix();
+        matrixToList();
     }
 
     public void setMatrix() {
-        System.out.println("¿Desea cargar su propia matriz de adyacencia o prefiere que el programa genere una al azar?\n1 - Sí\n2 - No");
+        System.out.println("¿Desea cargar su propia matriz de adyacencia o prefiere que el programa genere una al azar?\n1 - Propia\n2 - Aleatoria");
         int choice = scanner.nextInt();
         switch (choice) {
             case 1:
                 try {
-                    Stream<String> stream = Files.lines(Paths.get("matrix.txt"));
-                    generateMatrixFromFile(stream);
+                    List<String> lines = Collections.emptyList();
+                    lines = Files.readAllLines(Paths.get("matrix.txt"), StandardCharsets.UTF_8);
+                    //Stream<String> stream = Files.lines(Paths.get("matrix.txt")).fo;
+                    generateMatrixFromFile(lines);
                 }catch (Exception e){e.printStackTrace();}
                 break;
             case 2:
@@ -39,11 +46,31 @@ public class TravellingSalesman {
     }
 
     public List<Tuple> sart() {
-        matrixToList();
         return closestNeighbour();
     }
 
-    private void generateMatrixFromFile(Stream<String> stream) {
+    private void generateMatrixFromFile(List<String> lines) {
+        matrix = new int[lines.size()][lines.size()];
+        List<Integer> numbers = new ArrayList<>();
+        number_of_cities = lines.size();
+
+        for(String line : lines) {
+            String[] s_split = line.split(" ");
+            for(String n : s_split)
+                numbers.add(Integer.parseInt(n));
+        }
+
+        for(int i = 0; i < matrix.length; i++) {
+            for(int j = 0; j < matrix[i].length; j++) {
+                if(numbers.size() != 0) {
+                    matrix[i][j] = numbers.get(0);
+                    numbers.remove(0);
+                }
+            }
+        }
+    }
+
+    /*private void generateMatrixFromFile(Stream<String> stream) {
         matrix = new int[(int) stream.count()][(int) stream.count()];
         List<Integer> numbers = new ArrayList<>();
 
@@ -59,7 +86,7 @@ public class TravellingSalesman {
                 numbers.remove(0);
             }
         }
-    }
+    }*/
 
     private void generateMatrix(int number_of_cities) {
         matrix = new int[number_of_cities][number_of_cities];

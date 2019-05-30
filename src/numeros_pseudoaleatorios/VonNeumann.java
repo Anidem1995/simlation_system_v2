@@ -3,6 +3,8 @@ package numeros_pseudoaleatorios;
 import archivos.ManejoArchivos;
 import numeros_pseudoaleatorios.modelo.Semilla;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class VonNeumann {
@@ -33,6 +35,23 @@ public class VonNeumann {
             semilla.extraerCentrales();
             manejoArchivos.escribir(semilla.getValor());
         }
-        manejoArchivos.leerArchivo();
+        //manejoArchivos.leerArchivo();
+    }
+
+    public List<Double> numbersToList() {
+        List<Double> numbers = new ArrayList<>();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Valor de la semilla");
+        int seed_value = scanner.nextInt();
+        Semilla semilla = new Semilla();
+        semilla.setValor(seed_value);
+        semilla.setNumero(100);
+        for(int i = 0; i < 100; i++) {
+            semilla.elevarCuadrado();
+            semilla.agregarCeros();
+            semilla.extraerCentrales();
+            numbers.add(semilla.getValor());
+        }
+        return numbers;
     }
 }

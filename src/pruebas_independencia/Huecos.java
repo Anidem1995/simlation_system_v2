@@ -12,14 +12,15 @@ public class Huecos {
     String variable;
     ArrayList<Integer>numeroLeidos = new ArrayList<>();
     ArrayList<String>numeroLeidos2 = new ArrayList<>();
-      String archivo1;
-  Huecos(ArrayList<Double>nums){
-      for(int i=0;i<nums.size();i++){
+    String archivo1;
+
+  Huecos(ArrayList<Double>nums) {
+      for(int i=0;i<nums.size();i++)
           numeroLeidos.add(nums.get(i).intValue());
-      }
-           System.out.println("Ingrese un numero para comparar");
-           variable=a_teclado.next();
-           comparar(variable);
+
+      System.out.println("Ingrese un numero para comparar");
+      variable=a_teclado.next();
+      comparar(variable);
   }
   
   
@@ -50,14 +51,9 @@ public void comparar(String a){
                 v2=i;
                 v3=i;
             }
-              
         }
-        else
-        {
-          
+        else {
         }
-        
     }
-    
 }    
 }

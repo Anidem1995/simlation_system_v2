@@ -37,6 +37,5 @@ public class Multiplicativo {
             manejoArchivos.escribir(semilla.getXn());
 
         }
-        manejoArchivos.leerArchivo();
     }
 }
